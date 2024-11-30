@@ -1,0 +1,62 @@
+.registration-panels {
+  background-color: green;
+  border: 1px white;
+  border-radius: 20px;
+}
+
+.registration-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.signup-container {
+  height: 25rem;
+  width: 25rem;
+}
+
+.signup-input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  /* background-color: blue; */
+  height: 20rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.submit-button-container {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* background-color: blue; */
+  margin-top: 1rem;
+}
+
+.submit-button {
+  height: 2.7rem;
+  width: 9rem;
+}
+
+.login-button {
+}
+
+.login-input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  /* background-color: blue; */
+  height: 15rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.login-container {
+  height: 25rem;
+  width: 25rem;
+}
+
+.registration-container {
+  background-color: black;
+}

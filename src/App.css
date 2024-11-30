@@ -1,38 +1,106 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar-container {
+  color: rgba(94, 240, 114, 0.83);
+  background-color: rgb(9, 94, 23);
+  width: 100%;
   display: flex;
-  flex-direction: column;
+  height: 5rem;
+  font-family: "Afacad Flux";
+}
+
+.navbar-icon {
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+.navbar-icon-container {
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column;
+  margin-left: 1.6rem;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar-icon-container:hover {
+  color: rgb(156, 235, 166);
+  cursor: pointer;
+}
+.navbar-icon:hover {
+  color: rgb(156, 235, 166);
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.navbar-links {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 1.5rem;
+  div:hover {
+    cursor: pointer;
+    color: rgb(156, 235, 166);
+    font-size: 1.6rem;
   }
-  to {
-    transform: rotate(360deg);
-  }
+}
+
+.navbar-title {
+  font-size: 1.1rem;
+}
+
+.home-page-container {
+  font-family: "Afacad Flux";
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+  height: 90.5vh;
+  padding-top: 3rem;
+  background-color: rgba(9, 94, 23, 0.07);
+  /* background-image: url("https://images.pexels.com/photos/1224158/pexels-photo-1224158.jpeg?auto=compress&cs=tinysrgb&w=600");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; */
+}
+
+#search-box {
+  width: 15rem;
+}
+
+.page-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 4rem;
+  font-size: 2rem;
+  /* background-image: url("plantbanner.jpg"); */
+  background-size: 1400px;
+  padding-bottom: 1rem;
+  color: rgb(2, 31, 7);
+}
+
+.search-icon {
+  filter: brightness(0) saturate(100%) invert(24%) sepia(41%) saturate(1254%)
+    hue-rotate(84deg) brightness(100%) contrast(97%);
+}
+
+.search-icon:hover {
+  cursor: pointer;
+  filter: brightness(0) saturate(100%) invert(93%) sepia(49%) saturate(965%)
+    hue-rotate(53deg) brightness(111%) contrast(88%);
+}
+
+.plant-card-container {
+  background-color: rgba(94, 240, 114, 0.319);
+  /* background-color: rgba(9, 94, 23, 0.34); */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 2rem;
+  /* height: 20rem; */
+  overflow: scroll;
+  margin-top: 2.5rem;
+  margin-bottom: 2rem;
+  padding: 2rem 2rem 2rem 2rem;
+  border: 3px solid rgba(4, 53, 13, 0.423);
+  border-radius: 4rem;
 }
